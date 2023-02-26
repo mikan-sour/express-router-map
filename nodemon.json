@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "src",
+        "src/client/app"
+    ],
+    "ext": "ts,json,tsx",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "npm run start:build:client && ts-node ./src/index.ts"     
+}
